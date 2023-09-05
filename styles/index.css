@@ -33,6 +33,7 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 90px;
 }
 
 ul{
@@ -45,12 +46,26 @@ ul{
 li{
     margin-top: 48px;
     margin-left: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+
 }
 
-button{
-    display: flex;
-    justify-content: center;
+.signinbtn{
     align-items: center;
     margin-top: 48px;
-    margin-left: 1050px;
+    margin-left: 752px;
+    border: none;
+    background: none;
+}
+
+.signupbtn{
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 71px;
+    width: 100px;
+    height: 59px;
+    background-color: #FC569A;
+    border: none;
+    border-radius: 6px;
 }
