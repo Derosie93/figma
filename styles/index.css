@@ -60,7 +60,7 @@ li{
 }
 
 .signupbtn{
-    align-items: center;
+    text-align: center;
     margin-top: 30px;
     margin-left: 71px;
     width: 100px;
@@ -68,4 +68,49 @@ li{
     background-color: #FC569A;
     border: none;
     border-radius: 6px;
+    color: white;
+    font-weight: bold;
+}
+
+.section1{
+    width: 500px;
+    height: 380px;
+    margin-left: 150px;
+}
+
+.section2{
+    margin-top: 208px;
+    width: 600px;
+    height: 400px;
+    margin-left: 1000px;
+    z-index: 1;
+}
+
+.maintitle{
+    margin-top: 302px;
+    color: #1B0A42;
+    font-size: 72px;
+    font-family: 'Ramaraja', serif;
+    line-height: 76px;
+}
+
+.infotext{
+    margin-top: 10px;
+    color: #9A9A9A;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.learnmorebtn{
+    width: 152px;
+    height: 64px;
+    border-radius: 6px;
+    border: none;
+    background-color: #FC569A;
+    text-align: center;
+    margin-top: 29px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+
 }
